@@ -8,7 +8,7 @@ pygame.init()
 
 # Configuración de la ventana
 screen = pygame.display.set_mode((800, 600)) # Tamaño de la ventana
-pygame.display.set_caption("Figures Movement") # Título de la ventana
+pygame.display.set_caption("Movement of Figures") # Título de la ventana
 
 #pygame.display.set_icon():
 #pygame.display.iconfy():
