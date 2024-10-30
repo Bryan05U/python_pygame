@@ -29,6 +29,9 @@ while running:
     # Pintar el fondo
     screen.fill(background_color)
 
+    # Limita los FPS a 60
+    pygame.time.Clock().tick(60)
+
     # Actualizar la pantalla
     pygame.display.update()
 
