@@ -25,8 +25,12 @@ while running:
         if event.type == pygame.QUIT:
             running = False
             sys.exit()
+
     # Pintar el fondo
     screen.fill(background_color)
 
     # Actualizar la pantalla
     pygame.display.update()
+
+# Cerrar Pygame
+pygame.quit()
